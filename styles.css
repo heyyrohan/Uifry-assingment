@@ -1,0 +1,242 @@
+#pic{
+    width: 34px;
+    height: 34px;
+}
+
+#navbtn{
+    margin-left: 50%;
+    width: 25%;
+    
+}
+
+.containers {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.headline {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+    display: inline-block;
+}
+
+.headline::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255,0,0,0.5) 0%, rgba(255,255,255,0) 50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.subtext {
+    font-size: 16px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.buttonss {
+    margin-top: 20px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.get-started {
+    background-color: black;
+    color: white;
+}
+
+.watch-video {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.watch-video::before {
+    content: '▶';
+    margin-right: 8px;
+}
+
+
+
+
+.card {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.circle-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(255,0,0,0.5) 0%, rgba(255,255,255,0) 50%);
+    border-radius: 50%;
+    filter: blur(10px);
+    transform: translate(180px, -50%);
+    z-index: 0;
+}
+.card-body {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+#sectiontwo{
+    color: red;
+    font-size: medium;
+    font-weight: 700;
+}
+
+#sectionheadtwo{
+    color: black;
+    font-weight: 900;
+    font-weight: bolder;
+}
+
+#testimonialhead{
+    color: black;
+    font-size: medium;
+    font-weight: 700;
+}
+
+#testimonialheading{
+    color: black;
+    font-weight: 900;
+    font-weight: bolder;
+}
+
+.card-titlee{
+    color: black;
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+.card-titles{
+    color: black;
+    font-size: 40px;
+    font-weight:bolder;
+}
+
+#faq{
+    background-color: red;
+    color: beige;
+}
+
+.card-titlees{
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+#iconss{
+    color: red;
+}
+
+.allmaindivs{
+    margin-top: 150px;
+}
+
+
+
+
+.containerssss {
+    position: relative;
+    width: auto;
+    height: 300px;
+    background-color: transparent;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+.part {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: bottom left;
+    border-radius: 10px;
+}
+
+.part1 {
+    width: 50px;
+    height: 350px;
+    background-color: black;
+    transform: rotate(-110deg);
+    left: 190px;
+    top: -305px;
+}
+
+.part1 .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    text-align: left;
+    writing-mode: vertical-rl;
+}
+
+.part1 .text-item {
+    display: flex;
+    align-items: center;
+  
+}
+
+.part1 .text-item .icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.part2 {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    transform: rotate(-48deg);
+    left: 85px;
+    top: 130px;
+    text-align: center;
+    color: black;
+} 
+
+.part3 {
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    left: 50px;
+    top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.star {
+    font-size: 24px;
+}
+
+.text {
+    line-height: 1.2;
+}
