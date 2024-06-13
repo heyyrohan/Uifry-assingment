@@ -240,3 +240,34 @@
 .text {
     line-height: 1.2;
 }
+
+
+/* Add this CSS to your existing styles */
+
+body.dark-mode {
+    background-color: #242222;
+    color: #ffffff;
+  }
+  
+  .navbar.dark-mode {
+    background-color: #242222;
+  }
+  
+  .navbar.dark-mode .nav-link {
+    color: #252424;
+  }
+  
+  .btn-dark-mode {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+  }
+  
+  .btn-light-mode {
+    background-color: #000000;
+    color: #ffffff;
+    /* border: 1px solid #ffffff; */
+  }
+  
+
+
